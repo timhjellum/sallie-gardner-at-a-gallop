@@ -5,3 +5,10 @@
 @import './assets/styles/rear-leg-outer.less';
 @import './assets/styles/frames.less';
 @import './assets/styles/tail.less';
+
+@import './assets/styles/base.less';
+@import './assets/styles/container.less';
+@import './assets/styles/front-legs.less';
+@import './assets/styles/rear-legs.less';
+@import './assets/styles/styles.less';
+@import './assets/styles/variables.less';

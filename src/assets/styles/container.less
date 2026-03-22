@@ -1,0 +1,132 @@
+@import "https://sallie-gardner-at-a-gallop.netlify.app/main.css";
+
+.responsive-container {
+	max-width: 1280px;
+	width: 100%;
+	aspect-ratio: ~"128 / 100";
+	background-image: url(https://assets.codepen.io/1695918/s-l1600.webp);
+	background-repeat: no-repeat;
+	background-size: 400%;
+	container-type: size;
+	animation: photo var(--frame-duration) var(--animation-iteration-count)
+		var(--ease);
+	image-rendering: crisp-edges;
+	background-position-x: 0.9%;
+	background-position-y: 12.2%;
+
+	background-position-x: 33.5%;
+	background-position-y: 11.9%;
+
+	image-rendering: pixelated;
+	position: relative;
+	.jockey {
+		width: 80px;
+		aspect-ratio: 1;
+		border: 5px solid yellow;
+		position: absolute;
+		top: 17%;
+		left: 59.5%;
+		border-radius: 50%;
+	}
+	.film {
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 10cqh;
+		background-color: rgba(0, 0, 0, 0.5);
+		border-top: 1cqh solid #000;
+	}
+	.earth {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 7.85cqh;
+		background-color: rgba(0, 0, 255, 0.25);
+		border-top: 1cqh solid #000;
+		.counter {
+			color: white;
+			background-color: #000;
+			width: 2em;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			font-size: 32px;
+			animation: counter var(--frame-duration)
+				var(--animation-iteration-count) var(--ease);
+			counter-increment: frame-number var(--num);
+			&:before {
+				content: counter(frame-number);
+			}
+		}
+	}
+	@keyframes counter {
+		0% {
+			--num: 1;
+		}
+
+		7.142857142857143% {
+			// frame 02
+			--num: 2;
+		}
+		14.28571428571429571429% {
+			// frame 03
+			--num: 3;
+		}
+		21.42857142857143% {
+			// frame 04
+			--num: 4;
+		}
+		28.57142857142857% {
+			// frame 05
+			--num: 5;
+		}
+		35.71428571428572% {
+			// frame 06
+			--num: 6;
+		}
+		42.85714285714286% {
+			// frame 07
+			--num: 7;
+		}
+		50.00000000000000% {
+			// frame 08
+			--num: 8;
+		}
+		57.14285714285714% {
+			// frame 09
+			--num: 9;
+		}
+		64.28571428571429571429% {
+			//frame 10
+			--num: 10;
+		}
+		71.42857142857143% {
+			//frame 11
+			--num: 11;
+		}
+		78.57142857142857% {
+			//frame 12
+			--num: 12;
+		}
+		85.71428571428572% {
+			//frame 13
+			--num: 13;
+		}
+		92.85714285714286% {
+			//frame 14
+			--num: 14;
+		}
+		100% {
+			//frame 15
+			--num: 15;
+		}
+	}
+}
