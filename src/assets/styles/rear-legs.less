@@ -14,7 +14,7 @@
 		border: 2cqh dashed rgba(255, 0, 0, 1);
 		animation: hindInner var(--frame-duration)
 			var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
-	}
+}
 	&.outer {
 		//display: none;
 		left: 45cqh;
@@ -22,7 +22,7 @@
 		border: 2cqh dashed rgba(0, 255, 0, 1);
 		animation: hindOuter var(--frame-duration)
 			var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
-	}
+}
 }
 
 .upper-rear-leg {
@@ -64,67 +64,67 @@
 				transform-origin: 50% 2.5cqw;
 				border-radius: 99em;
 				.show-origin-center();
-			}
-		}
-	}
+}
+}
+}
 }
 
 .upper-rear-leg {
 	&.inner {
-		background-color: var(--inner-leg);
+background-color: var(--inner-leg);
 		animation: upperInnerRearLeg var(--frame-duration)
 			var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
-		transform: rotate(330deg);
+transform: rotate(330deg);
 		.lower-rear-leg {
-			background-color: var(--inner-leg);
+background-color: var(--inner-leg);
 			animation: lowerInnerRearLeg var(--frame-duration) var(--ease)
 				var(--animation-fill-mode);
-			transform: rotate(105deg);
+transform: rotate(105deg);
 			.rear-foot {
-				background-color: var(--inner-leg);
+background-color: var(--inner-leg);
 				animation: innerRearFoot var(--frame-duration)
 					var(--animation-iteration-count) var(--ease)
 					var(--animation-fill-mode);
-				transform: rotate(245deg);
+transform: rotate(245deg);
 				.rear-hoof {
-					background-color: var(--inner-leg);
+background-color: var(--inner-leg);
 					animation: innerRearHoof var(--frame-duration)
 						var(--animation-iteration-count) var(--ease)
 						var(--animation-fill-mode);
-					transform: rotate(65deg);
-				}
-			}
-		}
-	}
+transform: rotate(65deg);
+}
+}
+}
+}
 }
 .upper-rear-leg {
 	&.outer {
 		//display: none;
-		background-color: var(--outer-leg);
+background-color: var(--outer-leg);
 		animation: upperOuterRearLeg var(--frame-duration)
 			var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
-		transform: rotate(310deg);
+transform: rotate(310deg);
 		.lower-rear-leg {
-			background-color: var(--outer-leg);
+background-color: var(--outer-leg);
 			animation: lowerOuterRearLeg var(--frame-duration) var(--ease)
 				var(--animation-fill-mode);
-			transform: rotate(95deg);
+transform: rotate(95deg);
 			.rear-foot {
-				background-color: var(--outer-leg);
+background-color: var(--outer-leg);
 				animation: outerRearFoot var(--frame-duration)
 					var(--animation-iteration-count) var(--ease)
 					var(--animation-fill-mode);
-				transform: rotate(255deg);
+transform: rotate(255deg);
 				.rear-hoof {
-					background-color: var(--outer-leg);
+background-color: var(--outer-leg);
 					animation: outerRearHoof var(--frame-duration)
 						var(--animation-iteration-count) var(--ease)
 						var(--animation-fill-mode);
-					transform: rotate(55deg);
-				}
-			}
-		}
-	}
+transform: rotate(55deg);
+}
+}
+}
+}
 }
 
 @show-origin-center: rgba(0, 0, 255, 0.5);
@@ -133,7 +133,7 @@
 		position: absolute;
 		width: 100%;
 		height: 100%;
-		transform: scale(0.001);
+transform: scale(0.001);
 		transform-origin: inherit;
 		&:after {
 			content: "";
@@ -141,8 +141,8 @@
 			width: 1.25vw;
 			aspect-ratio: 1;
 			border-radius: 100%;
-			background: @rgba;
-			transform: scale(1000);
-		}
-	}
+background: @rgba;
+transform: scale(1000);
+}
+}
 }

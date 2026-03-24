@@ -5,14 +5,14 @@
 		border: 2cqh dashed rgba(0, 255, 0, 1);
 		animation: shoulderOuter var(--frame-duration)
 			var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
-	}
+}
 	&.inner {
 		bottom: -60cqh;
 		right: 10cqh;
 		border: 2cqh dashed rgba(255, 0, 0, 1);
 		animation: shoulderInner var(--frame-duration)
 			var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
-	}
+}
 	position: absolute;
 	border-radius: ~"50% 50% 50% 50% / 50% 50% 50% 50% ";
 	width: 50cqh;
@@ -58,66 +58,66 @@
 				transform-origin: 50% 2.5cqw;
 				border-radius: 99em;
 				.show-origin-center();
-			}
-		}
-	}
+}
+}
+}
 }
 
 .upper-front-leg {
 	&.inner {
-		background-color: var(--inner-leg);
+background-color: var(--inner-leg);
 		animation: upperInnerFrontLeg var(--frame-duration)
 			var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
-		transform: rotate(40deg);
+transform: rotate(40deg);
 		.lower-front-leg {
-			background-color: var(--inner-leg);
+background-color: var(--inner-leg);
 			animation: lowerInnerFrontLeg var(--frame-duration) var(--ease)
 				var(--animation-fill-mode);
-			transform: rotate(10deg);
+transform: rotate(10deg);
 			.front-foot {
-				background-color: var(--inner-leg);
+background-color: var(--inner-leg);
 				animation: innerFrontFoot var(--frame-duration)
 					var(--animation-iteration-count) var(--ease)
 					var(--animation-fill-mode);
-				transform: rotate(0deg);
+transform: rotate(0deg);
 				.front-hoof {
-					background-color: var(--inner-leg);
+background-color: var(--inner-leg);
 					animation: innerFrontHoof var(--frame-duration)
 						var(--animation-iteration-count) var(--ease)
 						var(--animation-fill-mode);
-					transform: rotate(355deg);
-				}
-			}
-		}
-	}
+transform: rotate(355deg);
+}
+}
+}
+}
 	//}
 	//.upper-front-leg {
 	&.outer {
-		background-color: var(--outer-leg);
+background-color: var(--outer-leg);
 		animation: upperOuterFrontLeg var(--frame-duration)
 			var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
-		transform: rotate(355deg);
+transform: rotate(355deg);
 		.lower-front-leg {
-			background-color: var(--outer-leg);
+background-color: var(--outer-leg);
 			animation: lowerOuterFrontLeg var(--frame-duration) var(--ease)
 				var(--animation-fill-mode);
-			transform: rotate(60deg);
+transform: rotate(60deg);
 			.front-foot {
-				background-color: var(--outer-leg);
+background-color: var(--outer-leg);
 				animation: outerFrontFoot var(--frame-duration)
 					var(--animation-iteration-count) var(--ease)
 					var(--animation-fill-mode);
-				transform: rotate(40deg);
+transform: rotate(40deg);
 				.front-hoof {
-					background-color: var(--outer-leg);
+background-color: var(--outer-leg);
 					animation: outerFrontHoof var(--frame-duration)
 						var(--animation-iteration-count) var(--ease)
 						var(--animation-fill-mode);
-					transform: rotate(45deg);
-				}
-			}
-		}
-	}
+transform: rotate(45deg);
+}
+}
+}
+}
 }
 
 @show-origin-center: rgba(0, 0, 255, 0.5);
@@ -126,7 +126,7 @@
 		position: absolute;
 		width: 100%;
 		height: 100%;
-		transform: scale(0.001);
+transform: scale(0.001);
 		transform-origin: inherit;
 		&:after {
 			content: "";
@@ -134,8 +134,8 @@
 			width: 1.25vw;
 			aspect-ratio: 1;
 			border-radius: 100%;
-			background: @rgba;
-			transform: scale(1000);
-		}
-	}
+background: @rgba;
+transform: scale(1000);
+}
+}
 }

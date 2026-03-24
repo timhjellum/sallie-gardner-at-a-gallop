@@ -1,0 +1,421 @@
+@keyframes upperOuterRearLeg {
+
+	/* ***** frame 01 ***** */
+	/*
+0% {
+transform: rotate(310deg);
+}
+    */
+	/* ***** frame 02 ***** */
+	/*
+	7.142857142857143% {
+transform: rotate(305deg);
+}
+*/
+	/* ***** frame 03 ***** */
+	/*
+14.28571428571429% {
+transform: rotate(305deg);
+}
+*/
+	/* ***** frame 04 ***** */
+/*
+21.42857142857143% {
+transform: rotate(305deg);
+}
+*/
+	/* ***** frame 05 ***** */
+/*
+ 28.57142857142857% {
+transform: rotate(305deg);
+}
+	/* ***** frame 06 ***** */
+0%,
+100% {
+ //35.71428571428572% {
+transform: rotate(325deg);
+}
+	/* ***** frame 07 ***** */
+	/*
+    42.85714285714286% {
+transform: rotate(325deg);
+}
+*/
+	/* ***** frame 08 ***** */
+	/*
+    50% {
+transform: rotate(330deg);
+}
+    */
+/* ***** frame 09 ***** */
+	/*
+    57.14285714285714% {
+
+transform: rotate(360deg);
+}
+    */
+/* ***** frame 10 ***** */
+	/*
+    64.28571428571429% {
+transform: rotate(370deg);
+}
+    */
+/* ***** frame 11 ***** */
+	/*
+    71.42857142857143% {
+
+transform: rotate(370deg);
+}
+    */
+/* ***** frame 12 ***** */
+	/*
+    78.57142857142857% {
+
+transform: rotate(370deg);
+}
+    */
+/* ***** frame 13 ***** */
+	/*
+    85.71428571428572% {
+transform: rotate(350deg);
+}
+    */
+/* ***** frame 14 ***** */
+	/*
+    92.85714285714286% {
+
+transform: rotate(325deg);
+}
+    */
+/* ***** frame 15 ***** */
+	/*
+    100% {
+transform: rotate(340deg);
+}
+    */
+}
+
+
+@keyframes lowerOuterRearLeg {
+
+	/* ***** frame 01 ***** */
+	/*
+0% {
+transform: rotate(95deg);
+}
+    */
+	/* ***** frame 02 ***** */
+	/*
+7.142857142857143% {
+transform: rotate(75deg);
+}
+*/
+	/* ***** frame 03 ***** */
+	/*
+14.28571428571429% {
+transform: rotate(75deg);
+}
+*/
+	/* ***** frame 04 ***** */
+/*
+21.42857142857143% {
+transform: rotate(55deg);
+}
+*/
+	/* ***** frame 05 ***** */
+/*
+ 28.57142857142857% {
+transform: rotate(52.5deg);
+}
+	/* ***** frame 06 ***** */
+0%,
+100% {
+ //35.71428571428572% {
+transform: rotate(25deg);
+}
+	/* ***** frame 07 ***** */
+	/*
+    42.85714285714286% {
+transform: rotate(35deg);
+}
+*/
+	/* ***** frame 08 ***** */
+	/*
+    50% {
+transform: rotate(60deg);
+}
+    */
+/* ***** frame 09 ***** */
+	/*
+    57.14285714285714% {
+
+transform: rotate(50deg);
+}
+    */
+/* ***** frame 10 ***** */
+	/*
+    64.28571428571429% {
+
+transform: rotate(50deg);
+}
+    */
+/* ***** frame 11 ***** */
+	/*
+    71.42857142857143% {
+
+transform: rotate(40deg);
+}
+    */
+
+	/*
+    78.57142857142857% {
+
+transform: rotate(100deg);
+}
+    */
+
+	/*
+    85.71428571428572% {
+
+transform: rotate(90deg);
+}
+    */
+
+	/*
+    92.85714285714286% {
+
+transform: rotate(120deg);
+}
+    */
+
+	/*
+    100% {
+
+transform: rotate(110deg);
+}
+    */
+
+	/*
+0%,
+/*
+100% {
+transform: rotate(110deg);
+}
+*/
+}
+
+@keyframes outerRearFoot {
+
+	/* ***** frame 01 ***** */
+	/*
+0% {
+transform: rotate(255deg);
+}
+    */
+	/* ***** frame 02 ***** */
+	/*
+	7.142857142857143% {
+transform: rotate(275deg);
+}
+*/
+	/* ***** frame 03 ***** */
+	/*
+14.28571428571429% {
+transform: rotate(275deg);
+}
+*/
+	/* ***** frame 04 ***** */
+/*
+21.42857142857143% {
+transform: rotate(310deg);
+}
+*/
+	/* ***** frame 05 ***** */
+/*
+ 28.57142857142857% {
+transform: rotate(280deg);
+}
+	/* ***** frame 06 ***** */
+0%,
+100% {
+ //35.71428571428572% {
+transform: rotate(310deg);
+}
+	/* ***** frame 07 ***** */
+	/*
+    42.85714285714286% {
+transform: rotate(310deg);
+}
+*/
+	/* ***** frame 08 ***** */
+	/*
+    50% {
+transform: rotate(300deg);
+}
+    */
+/* ***** frame 09 ***** */
+	/*
+    57.14285714285714% {
+
+transform: rotate(300deg);
+}
+    */
+/* ***** frame 10 ***** */
+	/*
+    64.28571428571429% {
+
+transform: rotate(330deg);
+}
+    */
+/* ***** frame 11 ***** */
+	/*
+    71.42857142857143% {
+
+transform: rotate(345deg);
+}
+    */
+
+	/*
+    78.57142857142857% {
+
+transform: rotate(345deg);
+}
+    */
+
+	/*
+    85.71428571428572% {
+
+transform: rotate(335deg);
+}
+    */
+
+	/*
+    92.85714285714286% {
+
+transform: rotate(260deg);
+}
+    */
+
+	/*
+    100% {
+
+transform: rotate(270deg);
+}
+    */
+
+	/*
+0%,
+/*
+100% {
+transform: rotate(270deg);
+}
+*/
+}
+
+@keyframes outerRearHoof {
+
+	/* ***** frame 01 ***** */
+	/*
+0% {
+transform: rotate(55deg);
+}
+    */
+	/* ***** frame 02 ***** */
+	/*
+	7.142857142857143% {
+transform: rotate(50deg);
+}
+*/
+	/* ***** frame 03 ***** */
+	/*
+14.28571428571429% {
+transform: rotate(50deg);
+}
+*/
+	/* ***** frame 04 ***** */
+/*
+21.42857142857143% {
+transform: rotate(0deg);
+}
+*/
+	/* ***** frame 05 ***** */
+/*
+ 28.57142857142857% {
+transform: rotate(30deg);
+}
+	/* ***** frame 06 ***** */
+0%,
+100% {
+ //35.71428571428572% {
+transform: rotate(10deg);
+}
+	/* ***** frame 07 ***** */
+	/*
+    42.85714285714286% {
+transform: rotate(10deg);
+}
+*/
+	/* ***** frame 08 ***** */
+	/*
+    50% {
+transform: rotate(305deg);
+}
+    */
+/* ***** frame 09 ***** */
+	/*
+    57.14285714285714% {
+
+transform: rotate(310deg);
+}
+    */
+/* ***** frame 10 ***** */
+	/*
+    64.28571428571429% {
+
+transform: rotate(280deg);
+}
+    */
+/* ***** frame 11 ***** */
+	/*
+    71.42857142857143% {
+
+transform: rotate(5deg);
+}
+    */
+
+	/*
+    78.57142857142857% {
+
+transform: rotate(70deg); // 55
+}
+    */
+
+	/*
+    85.71428571428572% {
+
+transform: rotate(55deg);
+}
+    */
+
+	/*
+    92.85714285714286% {
+
+transform: rotate(70deg);
+}
+    */
+
+	/*
+    100% {
+
+transform: rotate(55deg);
+}
+    */
+
+	/*
+0%,
+/*
+100% {
+transform: rotate(55deg);
+}
+*/
+}
