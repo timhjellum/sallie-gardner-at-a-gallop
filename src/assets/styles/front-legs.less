@@ -1,7 +1,7 @@
 .shoulder {
 	&.outer {
-		bottom: -35cqh;
-		right: 5cqh;
+		bottom: -29cqh;
+		right: 26cqh;
 		border: 2cqh dashed rgba(0, 255, 0, 1);
 		animation: shoulderOuter var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
 	}
@@ -66,7 +66,7 @@
 }
 
 .upper-front-leg {
-	
+
 	&.inner {
 		display: none;
 		background-color: var(--inner-leg);
@@ -97,16 +97,17 @@
 	&.outer {
 		background-color: var(--outer-leg);
 		animation: upperOuterFrontLeg var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
-		transform: rotate(355deg);
+		transform: rotate(353deg);
+
 		.lower-front-leg {
 			background-color: var(--outer-leg);
 			animation: lowerOuterFrontLeg var(--frame-duration) var(--ease) var(--animation-fill-mode);
-			transform: rotate(60deg);
+			transform: rotate(45deg);
 
 			.front-foot {
 				background-color: var(--outer-leg);
 				animation: outerFrontFoot var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
-				transform: rotate(40deg);
+				transform: rotate(53deg);
 
 				.front-hoof {
 					background-color: var(--outer-leg);
