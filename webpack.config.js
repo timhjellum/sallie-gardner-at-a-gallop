@@ -42,6 +42,17 @@ const config = {
 				test: /\.less$/i,
 				use: [stylesHandler, 'css-loader', 'less-loader'],
 			},
+			            {
+                test: /\.(woff2?|ttf|eot)(\?v=\w+)?$/,
+                type: 'asset/resource',
+                generator: {
+                    filename: 'fonts/[name][ext][query]',
+                }
+            },
+            {
+                test: /\.(png|jpg|gif|ico|svg)(\?.*)?$/,
+                type: 'asset/resource',
+            },
 		],
 	},
 };

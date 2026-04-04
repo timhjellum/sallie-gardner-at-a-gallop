@@ -11,14 +11,92 @@
 		left: 40cqh;
 		top: 50cqh;
 		border: 2cqh dashed rgba(255, 0, 0, 1);
-		animation: hindInner var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
+
+		&.run {
+			animation: hindInner var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
+		}
+
+		.upper-rear-leg {
+			background-color: var(--inner-leg);
+			transform: rotate(330deg);
+
+			&.run {
+				animation: upperInnerRearLeg var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
+			}
+
+			.lower-rear-leg {
+				background-color: var(--inner-leg);
+				transform: rotate(105deg);
+
+				&.run {
+					animation: lowerInnerRearLeg var(--frame-duration) var(--ease) var(--animation-fill-mode);
+				}
+
+				.rear-foot {
+					background-color: var(--inner-leg);
+					transform: rotate(245deg);
+
+					&.run {
+						animation: innerRearFoot var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
+					}
+
+					.rear-hoof {
+						background-color: var(--inner-leg);
+						transform: rotate(65deg);
+
+						&.run {
+							animation: innerRearHoof var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
+						}
+					}
+				}
+			}
+		}
 	}
 
 	&.outer {
-left: 30cqh;
-    top: 53cqh;
+		left: 30cqh;
+		top: 53cqh;
 		border: 2cqh dashed rgba(0, 255, 0, 1);
-		animation: hindOuter var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
+
+		&.run {
+			animation: hindOuter var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
+		}
+
+		.upper-rear-leg {
+			background-color: var(--outer-leg);
+			transform: rotate(318deg);
+
+			&.run {
+				animation: upperOuterRearLeg var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
+			}
+
+			.lower-rear-leg {
+				background-color: var(--outer-leg);
+				transform: rotate(90deg);
+
+				&.run {
+					animation: lowerOuterRearLeg var(--frame-duration) var(--ease) var(--animation-fill-mode);
+				}
+
+				.rear-foot {
+					background-color: var(--outer-leg);
+					transform: rotate(260deg);
+
+					&.run {
+						animation: outerRearFoot var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
+					}
+
+					.rear-hoof {
+						background-color: var(--outer-leg);
+						transform: rotate(61deg);
+
+						&.run {
+							animation: outerRearHoof var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
+						}
+					}
+				}
+			}
+		}
 	}
 }
 
@@ -66,59 +144,9 @@ left: 30cqh;
 	}
 }
 
-.upper-rear-leg {
-	
-	&.inner {
-		display: none;
-		background-color: var(--inner-leg);
-		animation: upperInnerRearLeg var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
-		transform: rotate(330deg);
 
-		.lower-rear-leg {
-			background-color: var(--inner-leg);
-			animation: lowerInnerRearLeg var(--frame-duration) var(--ease) var(--animation-fill-mode);
-			transform: rotate(105deg);
 
-			.rear-foot {
-				background-color: var(--inner-leg);
-				animation: innerRearFoot var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
-				transform: rotate(245deg);
 
-				.rear-hoof {
-					background-color: var(--inner-leg);
-					animation: innerRearHoof var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
-					transform: rotate(65deg);
-				}
-			}
-		}
-	}
-}
-
-.upper-rear-leg {
-	&.outer {
-		background-color: var(--outer-leg);
-		animation: upperOuterRearLeg var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
-		transform: rotate(333deg);
-
-		.lower-rear-leg {
-			background-color: var(--outer-leg);
-			animation: lowerOuterRearLeg var(--frame-duration) var(--ease) var(--animation-fill-mode);
-			transform: rotate(95deg);
-
-			.rear-foot {
-				background-color: var(--outer-leg);
-				animation: outerRearFoot var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
-				transform: rotate(255deg);
-
-				.rear-hoof {
-					background-color: var(--outer-leg);
-					animation: outerRearHoof var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
-					transform: rotate(61deg);
-				}
-			}
-		}
-	}
-}
 
 @show-origin-center: rgba(0, 0, 255, 0.5);
 

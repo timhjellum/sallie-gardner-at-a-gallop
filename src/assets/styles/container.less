@@ -1,3 +1,11 @@
+#runPauseButton {
+  width: 50px;
+  aspect-ratio: 1;
+  font-size: 16px;
+}
+
+
+
 .responsive-container {
 	max-width: 1280px;
 	width: 100%;
@@ -53,24 +61,26 @@
 			position: absolute;
 			bottom: 0;
 			left: 0;
-			font-size: 32px;
-			animation: counter var(--frame-duration) var(--animation-iteration-count) var(--ease);
-			counter-increment: frame-number var(--num);
+			font-size: 1rem;
+			&.run {
+				animation: counter var(--frame-duration) var(--animation-iteration-count) var(--ease);
+				counter-increment: frame-number var(--num);
 
-			&:before {
-				content: counter(frame-number);
+				&:before {
+					content: counter(frame-number);
+				}
 			}
 		}
 	}
 
 	@keyframes counter {
 		// ***** ***** start ***** ***** //
-		
+
 		// ***** ***** frame 00 ***** ***** //
 		0% {
 			--num: 16;
 		}
-		
+
 		// ***** ***** frame 01 ***** ***** //
 		6.25% {
 			--num: 1;
@@ -82,7 +92,7 @@
 		}
 
 		// ***** ***** frame 03 ***** ***** //
-		25% {
+		18.75% {
 			--num: 3;
 		}
 

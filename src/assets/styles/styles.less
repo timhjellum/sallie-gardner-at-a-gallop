@@ -25,7 +25,7 @@
 	}
 
 	.tail-pivot {
-display: none;
+		display: none;
 		position: absolute;
 		left: -10cqh;
 		top: 17cqh;
@@ -35,7 +35,10 @@ display: none;
 		height: 25cqh;
 		aspect-ratio: 1;
 		.show-origin-center();
-		animation: tailPivot var(--frame-duration) var(--animation-iteration-count) var(--ease);
+
+		&.run {
+			animation: tailPivot var(--frame-duration) var(--animation-iteration-count) var(--ease);
+		}
 
 		.tail {
 			width: 50cqw;
@@ -47,12 +50,15 @@ display: none;
 			background-color: var(--tail);
 			border-radius: ~"0% 100% 100% 0% / 0% 0% 100% 0%";
 			.show-origin-center(rgba(255, 255, 255, 1));
-			animation: tail var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
+
+			&.run {
+				animation: tail var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
+			}
 		}
 	}
 
 	.neck-pivot {
-display: none;
+		display: none;
 		--neck-size: 80cqh;
 		position: absolute;
 		top: ~"calc(50cqh - (var(--neck-size) / 2))";
@@ -62,7 +68,10 @@ display: none;
 		height: var(--neck-size);
 		aspect-ratio: 1;
 		.show-origin-center(rgba(255, 255, 255, 1));
-		animation: neckPivot ~"var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode)";
+
+		&.run {
+			animation: neckPivot ~"var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode)";
+		}
 
 		.neck {
 			--neck-length: 120cqh;
@@ -76,7 +85,10 @@ display: none;
 			background-color: var(--neck);
 			border-radius: 99em;
 			.show-origin-center(rgba(255, 255, 255, 1));
-			animation: neck var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
+
+			&.run {
+				animation: neck var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
+			}
 
 			/*
 			&:after {
@@ -115,7 +127,10 @@ background-color: rgba(0, 0, 0, 0.5);
 					background-color: var(--neck);
 					border-radius: 99em;
 					.show-origin-center(rgba(255, 255, 255, 1));
-					animation: head var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
+
+					&.run {
+						animation: head var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
+					}
 
 					.nose-pivot {
 						--nose-size: 30cqh;
