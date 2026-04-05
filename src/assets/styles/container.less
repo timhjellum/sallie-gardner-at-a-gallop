@@ -1,7 +1,7 @@
 #runPauseButton {
-  width: 50px;
-  aspect-ratio: 1;
-  font-size: 16px;
+	width: 50px;
+	aspect-ratio: 1;
+	font-size: 16px;
 }
 
 
@@ -14,10 +14,13 @@
 	background-repeat: no-repeat;
 	background-size: 400%;
 	container-type: size;
-	animation: photo var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
 	position: relative;
 	background-position-x: 98.2%;
 	background-position-y: 81.5%;
+
+	&.run {
+		animation: photo var(--frame-duration) var(--animation-iteration-count) var(--ease) var(--animation-fill-mode);
+	}
 
 	.jockey {
 		width: 80px;
@@ -62,6 +65,7 @@
 			bottom: 0;
 			left: 0;
 			font-size: 1rem;
+
 			&.run {
 				animation: counter var(--frame-duration) var(--animation-iteration-count) var(--ease);
 				counter-increment: frame-number var(--num);
